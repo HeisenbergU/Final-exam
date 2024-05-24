@@ -1,0 +1,50 @@
+.bigsale{
+    max-width: 1200px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.leftimgsale{
+width: 600px;
+height: 400px;
+background: url('https://preview.colorlib.com/theme/shoppers/images/blog_1.jpg');
+}
+
+.righttextsale{
+    width: 600px;
+    height: 400px;
+}
+
+.btnshopsale{
+width: 150px;
+height: 50px;
+margin-top: 50px;
+background-color: #7971ea;
+border: none;
+border-radius: 5px;
+}
+
+.less{
+    width: 600px;
+    font-size: 20px;
+}
+
+.loseexam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+@media only screen and (max-width: 748px) {
+    .bigsale{
+        flex-wrap: wrap;
+        margin-top: 3300px;
+    }
+  }

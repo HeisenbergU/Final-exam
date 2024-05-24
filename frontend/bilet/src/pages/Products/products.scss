@@ -1,0 +1,37 @@
+.app{
+    max-width: 1200px;
+    height: 600px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.asdas{
+    width: 400px;
+    height: 300px;
+    display: block;
+}
+
+.productlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+.features{
+    width: 370px;
+    height: 600px;
+}
+
+
+@media only screen and (max-width: 1225px) {
+    .productlist{
+        flex-wrap: wrap;
+        margin-top: 700px;
+    }
+    .asdas{
+        margin-top: 500px;
+    }
+  }

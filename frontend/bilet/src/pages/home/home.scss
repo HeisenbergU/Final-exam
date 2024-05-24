@@ -1,0 +1,93 @@
+.navbar{
+    max-width: 1200px;
+    height: 180px;
+    margin: auto;
+}
+
+.navtopside{
+    margin: auto;
+    max-width: 1200px;
+    height: 100px;
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+
+.navbottomside{
+    max-width: 1200px;
+    height: 80px;
+    margin: auto;
+}
+
+.srch{
+    border: none;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.searchside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srchicon{
+    font-size: 25px;
+}
+
+.rightsideicons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconavatar{
+    font-size: 30px;
+}
+
+.middlebtn{
+    background-color: rgba(0, 255, 255, 0);
+    width: 150px;
+    height: 50px;
+}
+
+.navbottomside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.colorhome{
+    color: rgb(0, 30, 255);
+    font-size: 12px;
+}
+
+.colorside{
+    color: black;
+    font-size: 12px;
+}
+
+.colorside:hover{
+    color: rgb(0, 30, 255);
+}
+.infolane{
+    display: none;
+}
+
+@media only screen and (max-width: 550px) {
+.middlebtn{
+    display: none;
+}
+.infolane{
+    display: block;
+}
+.colorhome{
+    display: none;
+}
+.colorside{
+    display: none;
+}
+  }

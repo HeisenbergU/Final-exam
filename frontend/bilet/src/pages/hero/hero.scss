@@ -1,0 +1,52 @@
+.heroback{
+    max-width: 100%;
+    height: 700px;
+background: url('https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg');
+}
+
+.heroconta{
+    max-width: 1200px;
+    height: 700px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: auto;
+}
+
+.rightsidehero{
+    max-width: 400px;
+    height: 300px;
+   
+    margin-left: 700px;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.findtxt{
+    font-size: 70px;
+}
+
+.loremtxt{
+    font-size: 20px;
+}
+
+.btnshop{
+    width: 150px;
+    height: 45px;
+    background-color: #7971ea;
+    border: none;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 1102px) {
+    .rightsidehero{
+        margin-left: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .rightsidehero{
+        margin-left: 1px;
+    }
+  }

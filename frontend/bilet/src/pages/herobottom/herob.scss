@@ -1,0 +1,31 @@
+.textsidemiddle{
+    max-width:1200px ;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carfont{
+    font-size: 100px;
+    color: #7971ea;
+}
+
+.firstdiv{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.returnfont{
+    font-size: 100px;
+    color: #7971ea;
+}
+
+@media only screen and (max-width: 840px) {
+    .textsidemiddle{
+flex-wrap: wrap;
+    }
+  }

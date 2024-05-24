@@ -1,0 +1,88 @@
+.cardcontainer{
+    max-width: 1200px;
+    height: 600px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middlecardfirst{
+    width: 370px;
+    height: 600px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middlecardsecond{
+    width: 370px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middlecardthird{
+    width: 370px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardimgfirst{
+    width: 370px;
+    height: 400px;
+    background: url('https://preview.colorlib.com/theme/shoppers/images/women.jpg');
+    background-size: cover;
+}
+
+
+.cardimgsecond{
+    width: 370px;
+    height: 400px;
+    background: url('https://preview.colorlib.com/theme/shoppers/images/children.jpg');
+    background-size: cover;
+}
+
+.cardimgthird{
+    width: 370px;
+    height: 400px;
+    background: url('https://preview.colorlib.com/theme/shoppers/images/men.jpg');
+    background-size: cover;
+}
+
+.clctext{
+    margin-top: 290px;
+    color: white;
+   
+}
+
+.clctext:hover{
+    color: black;
+}
+
+.fntsizetxtcol{
+font-size: 20px;
+}
+
+.fntsizetxtcollec{
+    font-size: 55px;
+}
+
+
+
+@media only screen and (max-width: 1148px) {
+    .cardcontainer{
+        flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 842px) {
+    .cardcontainer{
+        margin-top: 200px;
+    }
+  }
